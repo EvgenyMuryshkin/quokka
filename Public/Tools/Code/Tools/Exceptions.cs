@@ -11,6 +11,9 @@ namespace Quokka.Public.Tools
             switch(ex)
             {
                 case FileNotFoundException fnfe:
+                    if (Path.GetExtension(fnfe.FileName).ToLower() == ".dll")
+                        throw ex;
+                    break;
                 case ReflectionTypeLoadException rtle:
                 case FileLoadException fle:
                     throw ex;

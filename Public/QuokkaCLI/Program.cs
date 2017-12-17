@@ -10,7 +10,7 @@ namespace QuokkaCLI
         static void Main(string[] args)
         {
             using (var c = new QuokkaContainer()
-                    .WithContentDomain(eContentDomain.Public)
+                    .WithContentDomain(eContentDomain.Private)
                     .WithProjectTransformation<CloudTransformation>()
                     .WithRuntimeConfiguration(RuntimeConfiguration.FromCommandLineArguments(args)))
             {
