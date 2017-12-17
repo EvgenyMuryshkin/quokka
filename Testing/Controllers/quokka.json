@@ -1,0 +1,14 @@
+﻿{
+  "Project": "ItgTests",
+  "Configurations": [
+    {
+      "Name": "Quokka",
+      "ClockFrequency": 50000000
+    },
+    {
+      "Name": "Sim",
+      "ClockFrequency": 100000
+    }
+  ],
+  "ProjectLocation": "D:\\quokka\\integration-tests"
+}

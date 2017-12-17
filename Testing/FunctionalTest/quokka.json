@@ -1,0 +1,10 @@
+﻿{
+  "Project": "FncTests",
+  "Configurations": [
+    {
+      "Name": "Quokka",
+      "ClockFrequency": 50000000
+    }
+  ],
+  "ProjectLocation": "D:\\quokka\\functional-tests"
+}

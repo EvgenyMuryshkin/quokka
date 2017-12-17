@@ -1,0 +1,14 @@
+﻿{
+  "Project": "Tacho",
+  "Configurations": [
+    {
+      "Name": "Quokka",
+      "ClockFrequency": 50000000
+    },
+    {
+      "Name": "Sim",
+      "ClockFrequency": 100000
+    }
+  ],
+  "TargetLocation": "D:\\quokka\\tacho-demo"
+}
